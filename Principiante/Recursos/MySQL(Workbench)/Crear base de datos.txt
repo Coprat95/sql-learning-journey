@@ -1,0 +1,8 @@
+--Para Crear la base de datos si no existe--
+
+CREATE DATABASE IF NOT EXISTS clasesql;
+
+
+-- Para trabajar con esta base de datos recién creada --
+
+USE clasesql;

@@ -1,0 +1,24 @@
+-- Crear la tabla 
+
+CREATE TABLE tabla_texto (
+    columna VARCHAR(255)
+);
+
+-- Insertar los valores
+
+INSERT INTO tabla_texto (columna)
+VALUES
+('123'), ('Hola'), ('456'), ('Mundo'), ('789'), ('Texto'), ('Casa'), ('Perro'), ('Gato'), ('12345'),
+('Agua'), ('Cielo'), ('999'), ('Tierra'), ('Sol'), ('Luna'), ('Mar'), ('Computadora'), ('123'), ('123456'),
+('Mesa'), ('Silla'), ('1000'), ('Avión'), ('Barco'), ('Camión'), ('Libro'), ('Lápiz'), ('Reloj'), ('Flor'),
+('Azul'), ('Rojo'), ('Verde'), ('Amarillo'), ('5000'), ('Negro'), ('Blanco'), ('Gris'), ('Naranja'), ('Morado'),
+('Fresa'), ('Manzana'), ('1234567'), ('2000'), ('Zapato'), ('Puerta'), ('Ventana'), ('Pared'), ('Montaña'), ('Río'),
+('Lago'), ('Playa'), ('Arena'), ('Bosque'), ('Selva'), ('Auto'), ('Moto'), ('Bici'), ('12345678'), ('10000'),
+('Avión'), ('Globos'), ('Niño'), ('Niña'), ('Amigo'), ('Amiga'), ('Dado'), ('Pelota'), ('Estrella'), ('Música'),
+('Juego'), ('Ropa'), ('Sombrero'), ('Fuego'), ('Agua'), ('Comida'), ('123456789'), ('Parque'), ('Viaje'), ('País'),
+('Ciudad'), ('Calle'), ('Carro'), ('Nube'), ('Taza'), ('Plato'), ('Cuchara'), ('Pez'), ('Gallo'), ('Vaca'),
+('Arroz'), ('Fruta'), ('Verdura'), ('Montaña'), ('Reloj'), ('Luz'), ('Lámpara'), ('Botella'), ('Mesa'), ('Sofá');
+
+-- Consulta de los datos
+
+SELECT columna FROM tabla_texto;

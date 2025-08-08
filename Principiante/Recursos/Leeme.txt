@@ -1,0 +1,18 @@
+Bienvenido/as
+
+Este curso está diseñado para facilitar el aprendizaje del lenguaje SQL utilizando dos plataformas diferentes: SQL Server y MySQL Workbench.
+Para garantizar una experiencia adecuada y sin errores al ejecutar los scripts proporcionados, es muy importante que sigas esta indicación:
+
+▶️ Si estás utilizando SQL Server:
+Debes trabajar exclusivamente con los archivos contenidos en la carpeta SQLServer.
+Todos los scripts y ejemplos en esa carpeta están preparados específicamente para la sintaxis y funcionamiento de SQL Server (Management Studio).
+
+▶️ Si estás utilizando MySQL Workbench:
+Debes trabajar únicamente con los archivos ubicados en la carpeta MySQL(Workbench).
+Estos scripts han sido adaptados a la sintaxis y funciones propias de MySQL Workbench.
+
+📌 Importante: No mezcles archivos entre plataformas. Aunque ambos manejan SQL, la sintaxis, funciones y estructura pueden variar, lo cual podría generar errores en la ejecución si no usas los scripts correspondientes.
+
+Ante cualquier duda, revisa bien qué herramienta estás usando y asegúrate de seguir los archivos correctos según tu entorno.
+
+Buen Aprendizaje !

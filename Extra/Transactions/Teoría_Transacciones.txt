@@ -1,0 +1,14 @@
+-- Transacciones
+/* Conjunto de operaciones SQL que se ejecutan como unidad indivisible.
+Sus características (ACID)
+-Atomicidad ( o se ejecuta todo o nada)
+-Consistencia ( la bdd pase de un estado válido a otro válido)
+-Aislamiento (lo que sucede en una transacción no se ve afectado  ni afecta a otras transacciones concurrentes)
+-Durabilidad ( una vez confirmada [COMMIT]), la transacción persiste incluso si hay fallos del sistema.
+
+Para controlarlas usamos 4 comandos
+-BEGIN : Inicia una nueva transacción.
+-COMMIT: Guarda todos los datos de la transacción
+-ROLLBACK: Deshace todos los cambios realizados desde el BEGIN
+-SAVEPOINT: Marca un punto intermedio dentro de la transacción al que podemos volver con ROLLBACK TO. 
+

@@ -1,0 +1,11 @@
+PRIORIDAD PARA AMPLIAR CONOCIMIENTOS SQL: 
+
+Alta:  Views, Triggers, Procedures  Se usan en casi todas las bases de datos reales. Te permiten encapsular lógica y automatizar.
+Alta:  Transacciones y concurrencia  Fundamental para mantener la integridad de datos en apps multiusuario.
+Alta:  Seguridad y roles  Necesario para controlar accesos y proteger datos.
+
+______________________________-
+Media:  Integración con back-end  Te suma puntos cuando empieces a trabajar con APIs, pero no hace falta dominar ORMs desde el día uno.
+Media:  Modelado complejo  Es bueno para entender diseño profesional de bases, pero con saber normalizar hasta 3FN ya vas bien como junior.
+Media:  Performance y tuning  Útil cuando trabajas con bases grandes; como junior, aprender EXPLAIN básico es suficiente.
+Media-Baja:  SQL en Big Data y BI  Se usa en roles más de análisis o datos. No se espera que un dev junior domine esto.
